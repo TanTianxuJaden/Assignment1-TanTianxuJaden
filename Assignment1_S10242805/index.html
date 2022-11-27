@@ -3,43 +3,81 @@
 
 <head>
 	<link href="Normalize.css" rel="stylesheet" type="text/css" />
+  <link href="Nagivation.css" rel="stylesheet" type="text/css" />
+  <link href="Navigation/Men_nav.css" rel="stylesheet" type="text/css" />
+  <link href="Navigation/Women_nav.css" rel="stylesheet" type="text/css" />
+  <link href="Background.css" rel="stylesheet" type="text/css" />
+  <link href="Women/Women.css" rel="stylesheet" type="text/css" />
+
 </head>
 
-
+ 
 <body>
-  <hr>
-  <ul>
-    <li><b class="navigation_bar1" href="#Jein">Jein</b></li>
-    <img class="Profile" src="Images/Profile.jpg" alt="Profile">
-    <img Class ="Cart" src="Images/Cart.jpg" alt="Cart">
-  </ul>
-  <hr>
-  <ul class = "navigation_bar2">
-    <li><a href="#Women">Women</a></li>
-    <li><a href="#Men">Men</a></li>
-  </ul>
-  <hr>
-  <ul class="navigation_bar3" >
-    <li><a href="#Tops">Tops</a></li>
-    <li><a href="#Bottom">Bottom</a></li>
-    <input class="Search" type="text" placeholder="Search">
-  </ul>
-  <hr>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/w06Nfrlwo9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <hr>
 
 
+  <div>
+    <hr>
+    <ul>
+      <li><b class="navigation_bar1" href="#Jein">Jein</b></li>
+      <img class="Profile" src="Images/Profile.jpg" alt="Profile">
+      <img Class ="Cart" src="Images/Cart.jpg" alt="Cart">
+    </ul>
+    <hr>
 
-  <div class="navbar">
-    <div class="dropdown">
-      <button class="dropbtn">Dropdown 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+
+    <ul class="All_navigation">
+
+      <div class="women">
+        <button class="women_button" onclick="myFunction()">Women</button>
+        <div class="women-content" id="myDropdown">
+          <a href="#Women/Women_top">Top</a>
+          <a href="#Women/Women_bottom">Bottom</a>
+        </div>
       </div>
+      <div class="men">
+        <button class="men_button">Men</button>
+        <div class="men-content" id="myDropdown">
+          <a href="Men/Men_Tops.html">Top</a>
+          <a href="Men/Men_Pants.html">Bottom</a>
+        </div>
+      </div>
+    </ul>
+    <hr>
+
+  </div>
+
+  <div class ="container">
+    <img Class ="background" src="Images/Background.jpg" alt="background">
+    <div class="ribbon"></div>
+    <p class = "black_friday">Black Friday sale</p>
+    <div class = "circle"></div>
+    <p class="sale"> sale </p>
+    <p class = "twelve"> 12<>12</p>
+    <p class= "up">Up to </p>
+    <p class="number">80%</p> 
+    <p class="off"> off</p>
+  </div>
+  <hr>
+
+  <p class="Shop"><strong>* Shop now * </strong></p> 
+
+<div class="border">
+  <div class="spread">
+    <b class="format">FLASH SALE</b>
+    <p class="view">View All ></p>
+  </div>
+    <img src="Women/Women_Images/Girl_pants1.jpg" >
+    <img src="Women/Women_Images/Girl_pants2.jpg" >
+    <img src="Women/Women_Images/Girl_pants3.jpg" >
+    <img src="Women/Women_Images/Girl_pants4.jpg" >
+    <img src="Women/Women_Images/Girl_pants5.jpg" >
+</div>
+<hr>
+
+  
+  <iframe width="840" height="472.5" src="https://www.youtube.com/embed/w06Nfrlwo9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+<hr>
 </body>
 
 

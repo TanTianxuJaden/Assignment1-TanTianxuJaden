@@ -1,0 +1,63 @@
+.All_navigation {
+    overflow: hidden;
+    background-color: whitesmoke;
+    font-family: Arial;
+  }
+  
+
+  .All_navigation a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .men {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+  .men .men_button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 40px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+
+  
+
+  .men-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    max-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+
+  .men-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+
+  .men-content a:hover {
+    background-color: darkgrey;
+  }
+  
+
+  .men:hover .men-content {
+    display: block;
+  }
