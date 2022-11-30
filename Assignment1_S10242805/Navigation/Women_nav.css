@@ -1,6 +1,6 @@
 .All_navigation {
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: black;
     font-family: Arial;
   }
   
@@ -25,7 +25,7 @@
     font-size: 16px;
     border: none;
     outline: none;
-    color: black;
+    color: white;
     padding: 14px 40px;
     background-color: inherit;
     font-family: inherit; 
@@ -40,7 +40,7 @@
     background-color: black;
     max-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
+    z-index: 1;
   }
   
 

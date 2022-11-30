@@ -1,0 +1,35 @@
+.alignItems{
+    display: flex;
+    justify-content: space-between;
+}
+
+.font{
+    font-size: 200%;
+
+}
+
+.line{
+    flex-direction: row;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.border_percent{
+    padding: 10px;
+}
+
+.whitebox{
+    background-color: white;
+    padding:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style:dashed;
+    border-radius: 10px;
+    border-color: black;
+
+}

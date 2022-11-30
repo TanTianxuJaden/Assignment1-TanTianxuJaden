@@ -18,5 +18,8 @@ https://www.kindpng.com/downpng/oohwRm_cart-free-cart-icon-png-transparent-png/
 https://unsplash.com/s/photos/wall-background
 https://youtu.be/w06Nfrlwo9M
 https://makeagif.com/gif/abstract-white-background-hd-motion-graphics-background-loop-white-video-royalty-free-footages-YsWRDA
+https://daxueconsulting.com/shein-market-strategy/
+
+
 
 

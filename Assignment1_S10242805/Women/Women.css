@@ -10,8 +10,8 @@
 
 
 img{
-    width: 250px;
-    padding: 20px;
+    width: 220px;
+    padding: 10px;
 }
 
 .border{
@@ -35,6 +35,7 @@ img{
 }
 
 .spread{
+    text-align: right;
     display: flex;
     justify-content: space-between;
 }

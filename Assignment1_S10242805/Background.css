@@ -94,6 +94,8 @@
     font-size: 400%;
 }
 
+
+/* Moving backgroung*/
 body{
     background-image: url(Images/Background_video.gif);
     background-size: cover;

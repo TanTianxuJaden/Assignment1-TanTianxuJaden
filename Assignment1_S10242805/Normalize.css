@@ -9,6 +9,7 @@ ul {
   .navigation_bar1{
     font-size : 40px;
     font-family: Arial;
+    justify-content: center;
   }
 
 
@@ -17,8 +18,9 @@ iframe {
   display : block;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
-  
+  border-color: black;
+  border-style:double;
+  border-width: 8px;
 }
 
   li b{
@@ -58,17 +60,18 @@ iframe {
 }
 
 .Cart{
-  width: 24px;
-  height: auto;
+  width: 110px;
+  height: 100px;
   float: right;
-  border : 10px solid transparent;
+  align-items: baseline;
 }
 
 .Profile{
-  width: 20px;
-  height: auto;
+  width: 110px;
+  height: 100px;
   float: right;
-  border : 10px solid transparent;
+  align-items: baseline;
+
 }
 
 .Search{
@@ -76,5 +79,17 @@ iframe {
   float: right;
 }
 
+.black{
+  background-color: black;
+}
 
+.textbox{
+  width:800px;
+  padding:10px;
+  border: 2px solid black;
+  margin-left: 500px;
+}
 
+.information{
+  margin: 50px;
+}
