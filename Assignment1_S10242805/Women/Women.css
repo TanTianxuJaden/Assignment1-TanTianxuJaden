@@ -6,6 +6,7 @@
     color: white;
     padding-left: 40px;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 
@@ -15,7 +16,10 @@ img{
 }
 
 .border{
-    border: 2px solid black;
+    border: solid black;
+    border-style: double;
+    border-radius: 10px;
+    border-width: 6px;
     background-color: rgb(255, 144, 144);
     padding:10px;
 }
@@ -25,8 +29,15 @@ img{
     text-align: center;
     color: red;
     font-family: 'Merriweather Sans', sans-serif;
+    animation: blinking 1s linear infinite;
     
 }
+
+@keyframes blinking {
+    25% {
+      opacity: 0;
+    }
+  }
 
 .view{
     text-align: right;
@@ -38,4 +49,10 @@ img{
     text-align: right;
     display: flex;
     justify-content: space-between;
+}
+
+.flashsale_images{
+    border-width: 4px;
+    border-color: white;
+    border-style: double;
 }
