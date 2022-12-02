@@ -13,3 +13,60 @@ body{
     margin:0;
 }
 /* Moving backgroung*/
+
+/* Hover images */
+
+.Women_text{
+    background-color: wheat;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    display: inline-block;
+    margin: 20px;   
+}
+
+.image {
+    display: block;
+    width: 300px;
+    height: 400px;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition:all .3s ease;
+}
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.overlayOne{
+    height: 100%;
+    width:0;
+    top:0;
+    left:0;
+}
+.overlayTwo{
+    height: 100%;
+    width: 0;
+    top:0;  
+    left:0;
+
+}
+.overlayThree{
+    height: 100%;
+    width: 0;
+    top:0;
+    left:0;
+
+}
+.container:hover .overlayOne ,.container:hover .overlayTwo,.container:hover .overlayThree {
+    width:100%;
+}
+/* Hover images */
