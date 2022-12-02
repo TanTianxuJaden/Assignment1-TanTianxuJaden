@@ -19,6 +19,7 @@ https://unsplash.com/s/photos/wall-background
 https://youtu.be/w06Nfrlwo9M
 https://traansparent.tumblr.com/post/86137176124/transparent-stars-on-your-blog-x
 https://daxueconsulting.com/shein-market-strategy/
+https://www.google.com/search?q=shein&rlz=1C1UEAD_enSG1027SG1027&sxsrf=ALiCzsYLiflGbBbWlVuNGG5cKhxreTeLNQ:1669884106204&source=lnms&tbm=isch&sa=X&ved=2ahUKEwigid2Hg9j7AhW1XmwGHZHJDMgQ_AUoAnoECAEQBA&biw=2048&bih=951&dpr=0.94#imgrc=ZiNtqKUBFbe6PM
 
 
 

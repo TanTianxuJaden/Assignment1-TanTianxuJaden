@@ -7,7 +7,6 @@
   <link href="Navigation/Men_nav.css" rel="stylesheet" type="text/css" />
   <link href="Navigation/Women_nav.css" rel="stylesheet" type="text/css" />
   <link href="Background.css" rel="stylesheet" type="text/css" />
-  <link href="Women/Women.css" rel="stylesheet" type="text/css" />
   <link href="Slideshow/slideshow.css" rel="stylesheet" type="text/css" />
   <link href="percent_off/percent.css" rel="stylesheet" type="text/css" />
 </head>
@@ -18,28 +17,32 @@
 <!--top navigation bar-->
   <div>
     <hr>
-    <ul class = "topnavigation">
-      <li><b class="navigation_bar1" href="#Jein">Jein</b></li>
-      <li><img Class ="Cart" src="Images/Cart.jpg" alt="Cart"></li>
-      <li><img class="Profile" src="Images/Profile1.jpg" alt="Profile"></li>
-    </ul>
+    <div class = "topnavigation_background">
+      <div class="jeinWords">
+        <li><b class="navigation_bar1" href="#Jein">Jein</b></li>   
+      </div>
+
+      <div class="topnavigation_images">
+        <img class = "Profile" width="100" height="100" src="Images/Profile1.jpg">  
+        <img class = "Cart" width="100" height="100" src="Images/MainCart.png"> 
+      </div>
+    </div>
     <hr>
 
 
     <ul class="All_navigation" >
-
       <div class="women">
         <button class="women_button" onclick="myFunction()">Women</button>
         <div class="women-content" id="myDropdown">
-          <a href="#Women/Women_Tops.html">Top</a>
-          <a href="#Women/Women_Bottoms.html">Bottom</a>
+          <a href="Women/Women_Tops.html">Top</a>
+          <a href="Women/Women_Bottoms.html">Bottom</a>
         </div>
       </div>
       <div class="men">
-        <button class="men_button">Men</button>
+        <button class="men_button" onclick="myFunction()">Men</button>
         <div class="men-content" id="myDropdown">
           <a href="Men/Men_Tops.html">Top</a>
-          <a href="Men/Men_Pants.html">Bottom</a>
+          <a href="Men/Men_Bottom.html">Bottom</a>
         </div>
       </div>
     </ul>
@@ -184,13 +187,22 @@
 
 <!--********************-->
 <!--More information-->
-<div>
+<div class="AllInformation">
   <h2 class = "information">More information on Jein</h2>
-  <p class = "textbox">Shein is now the largest cross-border fast fashion e-commerce company in China. The e-commerce clothing brand reaches consumers in the United States, France, Russia, Germany and over 200 other countries. In 2021, the Shein app had over 177 million downloads, with over 43.7 million users worldwide, exceeding 10 million monthly active users in the US alone. On TikTok, the hashtag #Shein has garnered over 32.3 billion views.</p>
-</div>
+  <div class = "informationBox">
+    <img class = "informationShein" src="Images/Shein.jpg">
+    <div class = "textbox">
+      <p>Jein is now the largest cross-border fast fashion e-commerce company in China. </p> 
+      <p>  The e-commerce clothing brand reaches consumers in the United States, France, Russia, Germany and over 200 other countries. In 2021, the Jein app had over 177 million downloads, with over 43.7 million users worldwide, exceeding 10 million monthly active users in the US alone. </p> 
+      <p>  On TikTok, the hashtag #Jein has garnered over 32.3 billion views.</p>
+    </div>
+  </div>
+  </div>
 <!--More information-->
 <!--********************-->
 </body>
+
+
 
 
 </div>
