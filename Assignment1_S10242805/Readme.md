@@ -1,13 +1,14 @@
-This project of mine is a webpage regarding selling clothing worldwide . 
-This webpage sells clothings for both type of genders . 
+This is a homepage I created to promote the clothing line featured on the main website by compiling a list of items that I think fit with contemporary men's and women's fashion.
+Therefore, clothings on Jein, my website would list products from shein, and have a hyperlink to where they can purchase the said product.
+
 The reason why i chose to do a clothing website is because it is something i use from day to day life as i am obsessed with shopping . Therefore , it being my biggest expendidure .
-In my main webpage , it will not only show u the daily sales for selected clothing but also have a short video advertisement to show the top clothings with the highest sales.
+My main webpage, index.html, will not only display the current daily discounts for a few items of clothes, but it will also feature a brief video commercial highlighting. The clothings in the men's and women's sections is also chosen to complement the fashion of contemporary men and women.
 
-Firstly , i will have the navigation bars which allow users to pick the option to go to their app profile , cart .
-In addition , users will be able to choose which type of clothes they would like to purchase . For example , clothing , dresses and tops for the women section .
-The buttons will be linked , such that it will bring them to another webpage.
+First, I'll have navigation bars with options for users to browse to their app profiles and cart.
+Users will also have the option of selecting the type of clothing they want to buy. For instance, the women's clothes department can include dresses and tops.
+When a user chooses to add an item to their card, it directs them to the shein webpage for the next item.
 
-I decided to use a white background instead as it illustrates simplicity as they are many elements on the webpage . Therefore , it would not look messy and draw the users attention to what matters most , the clothings.
+I decided to use a white gif background as it suits the color of the shein webpage, white, which makes the webpage look clean and neat. Furthermore, i used black and white color as it enhances the visual appeal, revitalizes stale images, and provides the framework for your evaluation of the picture.
 
 
 References:

@@ -15,6 +15,17 @@ body{
 /* Moving backgroung*/
 
 /* Hover images */
+.text {
+    font-size: 150%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
 
 .Women_text{
     background-color: wheat;
@@ -66,7 +77,14 @@ body{
     left:0;
 
 }
-.container:hover .overlayOne ,.container:hover .overlayTwo,.container:hover .overlayThree {
+.overlayFour{
+    height: 100%;
+    width: 0;
+    top:0;
+    left:0;
+
+}
+.container:hover .overlayOne ,.container:hover .overlayTwo,.container:hover .overlayThree,.container:hover .overlayFour {
     width:100%;
 }
 /* Hover images */
