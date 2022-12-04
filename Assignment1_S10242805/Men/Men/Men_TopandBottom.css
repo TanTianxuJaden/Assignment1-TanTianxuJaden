@@ -1,0 +1,61 @@
+.TopAndBottomContainer{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 20px; 
+    border: 2px solid black;
+    padding: 20px;
+}
+.TopAndBottomContainerRow{
+    display: flex;
+    flex-direction: row;
+}
+.TopAndBottomContainerColumn{
+    display: flex;
+    flex-direction:column;
+}
+.orange{
+    color: orange;	
+    font-size: 20px;
+  }
+.black{
+    color: black;
+    font-size: 20px;
+}
+.TopAndBottomContainerText{
+    font-size: 200%;
+    margin: 20px;
+}
+img{
+    height: 600px;
+    width: auto;
+}
+.text{
+    font-size: 20px;
+    color: orange;
+    margin-left: 20px;
+}
+.price{
+    font-size: 30px;
+    color: red;
+    margin: 20px;
+}
+
+.size{
+    color: black;
+    padding: 3px;
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.AddBag{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
