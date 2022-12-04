@@ -1,0 +1,41 @@
+/* Moving backgroung*/
+body{
+    background-image: url(Images/Background_video2.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10px;
+    width:auto;
+    padding:0;
+    margin:0;
+}
+
+
+.Cart{
+    padding-top: 40px;
+    margin: auto;
+    display: block;
+}
+
+.shop{
+    text-align: center;
+}
+
+.cart_button{
+    text-decoration: none;
+    font-size: 200%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cart_text{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

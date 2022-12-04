@@ -1,4 +1,5 @@
 Assignment1-TanTianxuJaden
+
 This project of mine is a homepage I created to promote the clothing line featured on the main website, shein, by compiling a list of items that I think fit with contemporary men's and women's fashion. Therefore, clothings on Jein, my website would list products from shein, and have a hyperlink to where they can purchase the said product. 
 The reason why i chose to do this is as this would promote the clothing company shein and also help user filter out what type of style suits modern women and men of any age.
 
