@@ -3,9 +3,10 @@
     width: auto;
     height: auto;
     display: inline-block;
-    margin: 20px; 
+    margin: 40px; 
     border: 2px solid black;
     padding: 20px;
+    background-color: white;
 }
 .TopAndBottomContainerRow{
     display: flex;
@@ -58,4 +59,25 @@ img{
     padding: 10px;
     margin-left: 20px;
     text-decoration: none;
+}
+.details{
+    margin: 20px;
+    font-size: 120%;
+    background-color: wheat;
+    width: fit-content;
+    text-align: center;
+}
+/* Moving backgroung*/
+body{
+    background-image: url(../Men_Images/Background_video2.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10px;
+    width:auto;
+    padding:0;
+    margin:0;
 }
